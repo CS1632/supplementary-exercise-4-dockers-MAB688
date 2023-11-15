@@ -11,7 +11,6 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.core.IsNot.not;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -36,7 +35,6 @@ public class D3Test {
   JavascriptExecutor js;
   @Before
   public void setUp() {
-    // Changed to Chrome
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
     
