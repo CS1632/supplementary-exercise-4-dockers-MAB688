@@ -36,6 +36,7 @@ public class D3Test {
   JavascriptExecutor js;
   @Before
   public void setUp() {
+    // Changed to Chrome
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
     
