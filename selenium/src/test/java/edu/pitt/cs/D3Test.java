@@ -27,6 +27,7 @@ import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class D3Test {
